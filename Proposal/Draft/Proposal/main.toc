@@ -21,4 +21,3 @@
 \contentsline {section}{\numberline {4.8}Documentation}{7}{section.4.8}%
 \contentsline {chapter}{\numberline {5}Expected Results}{8}{chapter.5}%
 \contentsline {chapter}{References}{9}{chapter.5}%
-\contentsline {chapter}{APPENDIX}{10}{chapter*.3}%

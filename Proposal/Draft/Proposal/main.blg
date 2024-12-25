@@ -26,8 +26,6 @@ A level-1 auxiliary file: References.aux
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: IEEEtran.bst
 Reallocating 'name_of_file' (item size: 1) to 5 items.
-Reallocating 'name_of_file' (item size: 1) to 13 items.
-A level-1 auxiliary file: Appendix.aux
 I found no \citation commands---while reading file main.aux
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
@@ -42,7 +40,7 @@ Database file #1: refe.bib
 Done.
 You've used 0 entries,
             4087 wiz_defined-function locations,
-            833 strings with 7475 characters,
+            832 strings with 7463 characters,
 and the built_in function-call counts, 104 in all, are:
 = -- 0
 > -- 0
