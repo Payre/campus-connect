@@ -1,7 +1,7 @@
 \contentsline {chapter}{ACKNOWLEDGEMENT}{i}{chapter*.1}%
-\contentsline {chapter}{LIST OF FIGURES}{iii}{chapter*.1}%
-\contentsline {chapter}{LIST OF TABLES}{iv}{chapter*.1}%
-\contentsline {chapter}{LIST OF ABBREVIATIONS}{v}{chapter*.2}%
+\contentsline {chapter}{LIST OF FIGURES}{iv}{chapter*.1}%
+\contentsline {chapter}{LIST OF TABLES}{v}{chapter*.1}%
+\contentsline {chapter}{LIST OF ABBREVIATIONS}{vi}{chapter*.2}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Background}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Gap Identification}{1}{section.1.2}%
@@ -12,7 +12,13 @@
 \contentsline {chapter}{\numberline {3}LITERATURE REVIEW}{4}{chapter.3}%
 \contentsline {chapter}{\numberline {4}METHODOLOGY}{5}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Overview}{5}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Other section goes here}{5}{section.4.2}%
-\contentsline {chapter}{\numberline {5}EXPECTED RESULTS}{6}{chapter.5}%
-\contentsline {chapter}{REFERENCES}{7}{chapter.5}%
-\contentsline {chapter}{APPENDIX}{8}{chapter*.3}%
+\contentsline {section}{\numberline {4.2}Requirements Gathering}{5}{section.4.2}%
+\contentsline {section}{\numberline {4.3}System Design}{5}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Development}{6}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Testing}{6}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Deployment}{6}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Maintenance and Updates}{6}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Documentation}{7}{section.4.8}%
+\contentsline {chapter}{\numberline {5}EXPECTED RESULTS}{8}{chapter.5}%
+\contentsline {chapter}{REFERENCES}{9}{chapter.5}%
+\contentsline {chapter}{APPENDIX}{10}{chapter*.3}%
