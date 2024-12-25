@@ -9,24 +9,26 @@
 \contentsline {section}{\numberline {2.1}Introduction}{3}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Mobile Application Development}{3}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Monolithic Architecture}{3}{section.2.3}%
-\contentsline {section}{\numberline {2.4}React/React Native}{3}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Kotlin}{4}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Conclusion}{4}{section.2.6}%
-\contentsline {chapter}{\numberline {3}Literature Review}{5}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Introduction}{5}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Mobile Application Development}{5}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Monolithic Architecture}{5}{section.3.3}%
-\contentsline {section}{\numberline {3.4}React/React Native}{5}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Kotlin}{6}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Conclusion}{6}{section.3.6}%
-\contentsline {chapter}{\numberline {4}Methodology}{7}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Overview}{7}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Requirements Gathering}{7}{section.4.2}%
-\contentsline {section}{\numberline {4.3}System Design}{7}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Development}{8}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Testing}{8}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Deployment}{8}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Maintenance and Updates}{8}{section.4.7}%
-\contentsline {section}{\numberline {4.8}Documentation}{9}{section.4.8}%
-\contentsline {chapter}{\numberline {5}Expected Results}{10}{chapter.5}%
-\contentsline {chapter}{References}{11}{chapter.5}%
+\contentsline {section}{\numberline {2.4}MVVM Architecture}{4}{section.2.4}%
+\contentsline {section}{\numberline {2.5}React/React Native}{5}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Kotlin}{5}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Conclusion}{6}{section.2.7}%
+\contentsline {chapter}{\numberline {3}Literature Review}{7}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{7}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Mobile Application Development}{7}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Monolithic Architecture}{7}{section.3.3}%
+\contentsline {section}{\numberline {3.4}MVVM Architecture}{7}{section.3.4}%
+\contentsline {section}{\numberline {3.5}React/React Native}{8}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Kotlin}{8}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Conclusion}{8}{section.3.7}%
+\contentsline {chapter}{\numberline {4}Methodology}{9}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Overview}{9}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Requirements Gathering}{9}{section.4.2}%
+\contentsline {section}{\numberline {4.3}System Design}{9}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Development}{10}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Testing}{10}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Deployment}{10}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Maintenance and Updates}{10}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Documentation}{11}{section.4.8}%
+\contentsline {chapter}{\numberline {5}Expected Results}{12}{chapter.5}%
+\contentsline {chapter}{References}{13}{chapter.5}%
