@@ -36,15 +36,26 @@
 \contentsline {section}{\numberline {4.7}Deployment and Maintenance}{11}{}%
 \contentsline {chapter}{\numberline {5}SYSTEM DESIGN}{12}{}%
 \contentsline {section}{\numberline {5.1}Overview}{12}{}%
-\contentsline {section}{\numberline {5.2}Other section goes here}{12}{}%
-\contentsline {chapter}{\numberline {6}TECHNOLOGY USED}{13}{}%
-\contentsline {section}{\numberline {6.1}Front-End}{13}{}%
-\contentsline {subsection}{\numberline {6.1.1}React}{13}{}%
-\contentsline {subsection}{\numberline {6.1.2}TypeScript}{13}{}%
-\contentsline {subsection}{\numberline {6.1.3}Kotlin}{13}{}%
-\contentsline {section}{\numberline {6.2}Back-End}{14}{}%
-\contentsline {subsection}{\numberline {6.2.1}Node.js}{14}{}%
-\contentsline {subsection}{\numberline {6.2.2}PostgreSQL}{14}{}%
-\contentsline {chapter}{\numberline {7}EXPECTED RESULTS}{15}{}%
-\contentsline {chapter}{REFERENCES}{16}{}%
-\contentsline {chapter}{APPENDIX}{17}{}%
+\contentsline {section}{\numberline {5.2}Use Case Diagram}{12}{}%
+\contentsline {section}{\numberline {5.3}Class Diagram}{14}{}%
+\contentsline {section}{\numberline {5.4}Sequence Diagrams}{14}{}%
+\contentsline {subsection}{\numberline {5.4.1}Scenario 1: User Authentication}{15}{}%
+\contentsline {subsection}{\numberline {5.4.2}Scenario 2: Attendance Management}{16}{}%
+\contentsline {subsection}{\numberline {5.4.3}Scenario 3: Viewing Marks and Notices}{17}{}%
+\contentsline {section}{\numberline {5.5}Activity Diagrams}{17}{}%
+\contentsline {subsection}{\numberline {5.5.1}Scenario 1: User Login Process}{18}{}%
+\contentsline {subsection}{\numberline {5.5.2}Scenario 2: Data Entry by Teachers}{19}{}%
+\contentsline {subsection}{\numberline {5.5.3}Scenario 3: Students Viewing Results}{20}{}%
+\contentsline {section}{\numberline {5.6}Component Diagram}{20}{}%
+\contentsline {chapter}{\numberline {6}TECHNOLOGY USED}{22}{}%
+\contentsline {section}{\numberline {6.1}Front-End}{22}{}%
+\contentsline {subsection}{\numberline {6.1.1}React}{22}{}%
+\contentsline {subsection}{\numberline {6.1.2}TypeScript}{22}{}%
+\contentsline {subsection}{\numberline {6.1.3}Kotlin}{22}{}%
+\contentsline {section}{\numberline {6.2}Back-End}{23}{}%
+\contentsline {subsection}{\numberline {6.2.1}Node.js}{23}{}%
+\contentsline {subsection}{\numberline {6.2.2}PostgreSQL}{23}{}%
+\contentsline {chapter}{\numberline {7}EXPECTED RESULTS}{24}{}%
+\contentsline {chapter}{\numberline {8}CONCLUSION}{25}{}%
+\contentsline {chapter}{REFERENCES}{26}{}%
+\contentsline {chapter}{APPENDIX}{27}{}%

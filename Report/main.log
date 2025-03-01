@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.25)  1 MAR 2025 22:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.25)  1 MAR 2025 23:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -619,6 +619,51 @@ Overfull \hbox (24.92284pt too wide) detected at line 3
 \OT1/ptm/m/n/12 Figure 2.1: 
  []
 
+
+Overfull \hbox (24.92284pt too wide) detected at line 7
+\OT1/ptm/m/n/12 Figure 5.1: 
+ []
+
+
+Overfull \hbox (24.92284pt too wide) detected at line 8
+\OT1/ptm/m/n/12 Figure 5.2: 
+ []
+
+
+Overfull \hbox (24.92284pt too wide) detected at line 9
+\OT1/ptm/m/n/12 Figure 5.3: 
+ []
+
+
+Overfull \hbox (24.92284pt too wide) detected at line 10
+\OT1/ptm/m/n/12 Figure 5.4: 
+ []
+
+
+Overfull \hbox (24.92284pt too wide) detected at line 11
+\OT1/ptm/m/n/12 Figure 5.5: 
+ []
+
+
+Overfull \hbox (24.92284pt too wide) detected at line 12
+\OT1/ptm/m/n/12 Figure 5.6: 
+ []
+
+
+Overfull \hbox (24.92284pt too wide) detected at line 13
+\OT1/ptm/m/n/12 Figure 5.7: 
+ []
+
+
+Overfull \hbox (24.92284pt too wide) detected at line 14
+\OT1/ptm/m/n/12 Figure 5.8: 
+ []
+
+
+Overfull \hbox (24.92284pt too wide) detected at line 15
+\OT1/ptm/m/n/12 Figure 5.9: 
+ []
+
 )
 \tf@lof=\write5
 \openout5 = `main.lof'.
@@ -714,7 +759,12 @@ Chapter 4.
 
  (SystemDesign.tex
 Chapter 5.
-)
+<Graphics/usecase_diagarm.png, id=72, 692.5875pt x 1263.72125pt>
+File: Graphics/usecase_diagarm.png Graphic file (type png)
+<use Graphics/usecase_diagarm.png>
+Package pdftex.def Info: Graphics/usecase_diagarm.png  used on input line 11.
+(pdftex.def)             Requested size: 333.46777pt x 608.46904pt.
+
 
 [12
 
@@ -722,27 +772,98 @@ Chapter 5.
 
 
 ]
+<Graphics/class_diagram.png, id=76, 1434.35875pt x 722.7pt>
+File: Graphics/class_diagram.png Graphic file (type png)
+<use Graphics/class_diagram.png>
+Package pdftex.def Info: Graphics/class_diagram.png  used on input line 21.
+(pdftex.def)             Requested size: 333.46777pt x 168.01498pt.
+
+
+[13 <./Graphics/usecase_diagarm.png>]
+<Graphics/sequence_Diagram_Case_1Admin_adds_User.drawio.png, id=81, 746.79pt x 459.7175pt>
+File: Graphics/sequence_Diagram_Case_1Admin_adds_User.drawio.png Graphic file (type png)
+<use Graphics/sequence_Diagram_Case_1Admin_adds_User.drawio.png>
+Package pdftex.def Info: Graphics/sequence_Diagram_Case_1Admin_adds_User.drawio.png  used on input line 32.
+(pdftex.def)             Requested size: 333.46777pt x 205.27861pt.
+<Graphics/sequence_diagram_Admin_Deletes_User.drawio.png, id=82, 659.46375pt x 459.7175pt>
+File: Graphics/sequence_diagram_Admin_Deletes_User.drawio.png Graphic file (type png)
+<use Graphics/sequence_diagram_Admin_Deletes_User.drawio.png>
+Package pdftex.def Info: Graphics/sequence_diagram_Admin_Deletes_User.drawio.png  used on input line 33.
+(pdftex.def)             Requested size: 333.46777pt x 232.46765pt.
+
+
+[14 <./Graphics/class_diagram.png>]
+<Graphics/Sequence_Diagram_Teacher_Takes_Attendance.png, id=87, 862.22125pt x 739.76375pt>
+File: Graphics/Sequence_Diagram_Teacher_Takes_Attendance.png Graphic file (type png)
+<use Graphics/Sequence_Diagram_Teacher_Takes_Attendance.png>
+Package pdftex.def Info: Graphics/Sequence_Diagram_Teacher_Takes_Attendance.png  used on input line 41.
+(pdftex.def)             Requested size: 333.46777pt x 286.10237pt.
+
+
+[15 <./Graphics/sequence_Diagram_Case_1Admin_adds_User.drawio.png> <./Graphics/sequence_diagram_Admin_Deletes_User.drawio.png>]
+<Graphics/seq_dig_for_viewing_marks_and_attendance.jpg, id=93, 650.43pt x 683.55376pt>
+File: Graphics/seq_dig_for_viewing_marks_and_attendance.jpg Graphic file (type jpg)
+<use Graphics/seq_dig_for_viewing_marks_and_attendance.jpg>
+Package pdftex.def Info: Graphics/seq_dig_for_viewing_marks_and_attendance.jpg  used on input line 49.
+(pdftex.def)             Requested size: 333.46777pt x 350.45395pt.
+
+
+[16 <./Graphics/Sequence_Diagram_Teacher_Takes_Attendance.png>]
+<Graphics/activity_diagram_teacher_login.jpg, id=98, 350.30875pt x 412.54124pt>
+File: Graphics/activity_diagram_teacher_login.jpg Graphic file (type jpg)
+<use Graphics/activity_diagram_teacher_login.jpg>
+Package pdftex.def Info: Graphics/activity_diagram_teacher_login.jpg  used on input line 60.
+(pdftex.def)             Requested size: 333.46777pt x 392.73659pt.
+
+
+[17 <./Graphics/seq_dig_for_viewing_marks_and_attendance.jpg>]
+<Graphics/Activity_Diagram_teacher_takes_attendance.png, id=103, 608.2725pt x 710.655pt>
+File: Graphics/Activity_Diagram_teacher_takes_attendance.png Graphic file (type png)
+<use Graphics/Activity_Diagram_teacher_takes_attendance.png>
+Package pdftex.def Info: Graphics/Activity_Diagram_teacher_takes_attendance.png  used on input line 68.
+(pdftex.def)             Requested size: 333.46777pt x 389.60358pt.
+
+
+[18 <./Graphics/activity_diagram_teacher_login.jpg>]
+<Graphics/viewresult.jpg, id=107, 376.40625pt x 465.74pt>
+File: Graphics/viewresult.jpg Graphic file (type jpg)
+<use Graphics/viewresult.jpg>
+Package pdftex.def Info: Graphics/viewresult.jpg  used on input line 76.
+(pdftex.def)             Requested size: 333.46777pt x 412.63826pt.
+
+
+[19 <./Graphics/Activity_Diagram_teacher_takes_attendance.png>]
+<Graphics/component_diagram.png, id=112, 502.87875pt x 491.58656pt>
+File: Graphics/component_diagram.png Graphic file (type png)
+<use Graphics/component_diagram.png>
+Package pdftex.def Info: Graphics/component_diagram.png  used on input line 86.
+(pdftex.def)             Requested size: 333.46777pt x 325.97833pt.
+)
+
+[20 <./Graphics/viewresult.jpg>]
+
+[21 <./Graphics/component_diagram.png>]
 \openout2 = `TechnologiesUsed.aux'.
 
  (TechnologiesUsed.tex
 Chapter 6.
 
 
-[13
+[22
 
 
 
 
 ])
 
-[14]
+[23]
 \openout2 = `ExpectedResults.aux'.
 
  (ExpectedResults.tex
 Chapter 7.
 )
 
-[15
+[24
 
 
 
@@ -750,11 +871,19 @@ Chapter 7.
 ]
 \openout2 = `Conclusion.aux'.
 
+ (Conclusion.tex
+Chapter 8.
+)
 
-No file Conclusion.tex.
+[25
+
+
+
+
+]
 \openout2 = `References.aux'.
 
-(References.tex (main.bbl
+ (References.tex (main.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 31--34
 []\OT1/ptm/m/n/12 M. Fowler, ``Pre-sen-ta-tion model,'' $https : / / martinfowler . com / eaaDev /
  []
@@ -766,10 +895,7 @@ Underfull \hbox (badness 7468) in paragraph at lines 47--50
 
 ))
 
-[16
-
-
-
+[26
 
 
 
@@ -779,30 +905,30 @@ Underfull \hbox (badness 7468) in paragraph at lines 47--50
 
  (Appendix.tex
 
-[17
+[27
 
 
 
 ])
 
-[18] (main.aux (CoverPage.aux) (Acknowledgement.aux) (Abstract.aux) (ListofAbbreviations.aux) (Introduction.aux) (RelatedTheory.aux) (LiteratureReview.aux) (Methodology.aux) (SystemDesign.aux) (TechnologiesUsed.aux) (ExpectedResults.aux) (Conclusion.aux) (References.aux) (Appendix.aux))
+[28] (main.aux (CoverPage.aux) (Acknowledgement.aux) (Abstract.aux) (ListofAbbreviations.aux) (Introduction.aux) (RelatedTheory.aux) (LiteratureReview.aux) (Methodology.aux) (SystemDesign.aux) (TechnologiesUsed.aux) (ExpectedResults.aux) (Conclusion.aux) (References.aux) (Appendix.aux))
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-11-02>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 17391 strings out of 473649
- 338204 string characters out of 5727938
- 706485 words of memory out of 5000000
- 40096 multiletter control sequences out of 15000+600000
+ 17473 strings out of 473649
+ 342027 string characters out of 5727938
+ 706975 words of memory out of 5000000
+ 40176 multiletter control sequences out of 15000+600000
  577155 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,6n,93p,1233b,304s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,6n,93p,1233b,306s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (26 pages, 792186 bytes).
+Output written on main.pdf (36 pages, 1416072 bytes).
 PDF statistics:
- 110 PDF objects out of 1000 (max. 8388607)
+ 158 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
