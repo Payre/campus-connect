@@ -21,8 +21,8 @@ Reallocating 'name_of_file' (item size: 1) to 17 items.
 A level-1 auxiliary file: SystemDesign.aux
 Reallocating 'name_of_file' (item size: 1) to 21 items.
 A level-1 auxiliary file: TechnologiesUsed.aux
-Reallocating 'name_of_file' (item size: 1) to 20 items.
-A level-1 auxiliary file: ExpectedResults.aux
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+A level-1 auxiliary file: Output.aux
 Reallocating 'name_of_file' (item size: 1) to 15 items.
 A level-1 auxiliary file: Conclusion.aux
 Reallocating 'name_of_file' (item size: 1) to 15 items.
@@ -30,8 +30,6 @@ A level-1 auxiliary file: References.aux
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: IEEEtran.bst
 Reallocating 'name_of_file' (item size: 1) to 5 items.
-Reallocating 'name_of_file' (item size: 1) to 13 items.
-A level-1 auxiliary file: Appendix.aux
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
@@ -43,44 +41,44 @@ Database file #1: refe.bib
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 
 Done.
-You've used 8 entries,
+You've used 9 entries,
             4087 wiz_defined-function locations,
-            873 strings with 8623 characters,
-and the built_in function-call counts, 4439 in all, are:
-= -- 343
-> -- 62
+            874 strings with 8698 characters,
+and the built_in function-call counts, 4782 in all, are:
+= -- 372
+> -- 63
 < -- 25
-+ -- 42
++ -- 43
 - -- 14
-* -- 196
-:= -- 673
-add.period$ -- 16
-call.type$ -- 8
-change.case$ -- 14
+* -- 207
+:= -- 731
+add.period$ -- 18
+call.type$ -- 9
+change.case$ -- 16
 chr.to.int$ -- 69
-cite$ -- 8
-duplicate$ -- 341
-empty$ -- 415
+cite$ -- 9
+duplicate$ -- 373
+empty$ -- 451
 format.name$ -- 11
-if$ -- 1026
+if$ -- 1105
 int.to.chr$ -- 0
-int.to.str$ -- 8
-missing$ -- 62
-newline$ -- 47
+int.to.str$ -- 9
+missing$ -- 69
+newline$ -- 50
 num.names$ -- 4
-pop$ -- 172
+pop$ -- 192
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 343
+skip$ -- 372
 stack$ -- 0
-substring$ -- 183
-swap$ -- 230
+substring$ -- 186
+swap$ -- 247
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 8
+type$ -- 9
 warning$ -- 0
 while$ -- 11
-width$ -- 9
-write$ -- 89
+width$ -- 10
+write$ -- 97

@@ -1,0 +1,108 @@
+/* TeacherRegister.css */
+
+.teacher-register-container {
+    min-height: 100vh;
+    background-color: #f9fafb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 1rem;
+  }
+  
+  .teacher-register-form-card {
+    width: 100%;
+    max-width: 32rem;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+  
+  .teacher-register-title {
+    font-size: 1.875rem;
+    font-weight: 600;
+    text-align: center;
+    color: #1f2937;
+    margin-bottom: 1.5rem;
+  }
+  
+  .teacher-register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+  
+  .teacher-register-form-group {
+    width: 100%;
+  }
+  
+  .teacher-register-label {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #374151;
+    margin-bottom: 0.25rem;
+  }
+  
+  .teacher-register-input {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    margin-top: 0.25rem;
+  }
+  
+  .teacher-register-input:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+  }
+  
+  .teacher-register-error {
+    color: #ef4444;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+  }
+  
+  .teacher-register-button {
+    width: 100%;
+    padding: 0.5rem;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #4f46e5;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-top: 1rem;
+  }
+  
+  .teacher-register-button:hover:not(:disabled) {
+    background-color: #4338ca;
+  }
+  
+  .teacher-register-button:disabled {
+    background-color: #818cf8;
+    cursor: not-allowed;
+  }
+  
+  .teacher-register-success-message {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    color: #047857;
+    background-color: #d1fae5;
+    border: 1px solid #34d399;
+    border-radius: 0.5rem;
+  }
+  
+  .teacher-register-error-message {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    color: #b91c1c;
+    background-color: #fee2e2;
+    border: 1px solid #f87171;
+    border-radius: 0.5rem;
+  }

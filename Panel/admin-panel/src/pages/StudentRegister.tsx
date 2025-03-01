@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import axios from "axios";
+import '../components/UI/Register/StudentRegister.css';
 
 interface StudentForm {
   name: string;
@@ -51,163 +52,128 @@ const StudentRegister: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-md w-full space-y-8 bg-white p-10 rounded-xl shadow-2xl">
-        <div>
-          <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
-            Register Student
-          </h2>
-        </div>
-        <form onSubmit={handleSubmit(onSubmit)} className="mt-8 space-y-6">
-          <div className="rounded-md shadow-sm -space-y-px">
-            <div>
-              <label htmlFor="name" className="sr-only">
-                Name
-              </label>
-              <input
-                id="name"
-                {...register("name", { required: "Name is required" })}
-                className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
-                placeholder="Full Name"
-              />
-              {errors.name && (
-                <p className="text-red-500 text-xs mt-1">
-                  {errors.name.message}
-                </p>
-              )}
-            </div>
-            <div>
-              <label htmlFor="email" className="sr-only">
-                Email address
-              </label>
-              <input
-                id="email"
-                type="email"
-                {...register("email", { required: "Email is required" })}
-                className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
-                placeholder="Email address"
-              />
-              {errors.email && (
-                <p className="text-red-500 text-xs mt-1">
-                  {errors.email.message}
-                </p>
-              )}
-            </div>
-            <div>
-              <label htmlFor="phone" className="sr-only">
-                Phone number
-              </label>
-              <input
-                id="phone"
-                type="tel"
-                {...register("phone", { required: "Phone number is required" })}
-                className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
-                placeholder="Phone number"
-              />
-              {errors.phone && (
-                <p className="text-red-500 text-xs mt-1">
-                  {errors.phone.message}
-                </p>
-              )}
-            </div>
-            <div>
-              <label htmlFor="semester" className="sr-only">
-                Semester
-              </label>
-              <input
-                id="semester"
-                type="text"
-                {...register("semester", { required: "Semester is required" })}
-                className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
-                placeholder="Semester"
-              />
-              {errors.semester && (
-                <p className="text-red-500 text-xs mt-1">
-                  {errors.semester.message}
-                </p>
-              )}
-            </div>
-            <div>
-              <label htmlFor="section" className="sr-only">
-                Section
-              </label>
-              <select
-                id="section"
-                {...register("section", { required: "Section is required" })}
-                className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
-              >
-                <option value="">Select Section</option>
-                <option value="AB">AB</option>
-                <option value="CD">CD</option>
-                <option value="EF">EF</option>
-              </select>
-              {errors.section && (
-                <p className="text-red-500 text-xs mt-1">
-                  {errors.section.message}
-                </p>
-              )}
-            </div>
-            <div>
-              <label htmlFor="faculty" className="sr-only">
-                Faculty
-              </label>
-              <select
-                id="faculty"
-                {...register("faculty", { required: "Faculty is required" })}
-                className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
-              >
-                <option value="">Select Faculty</option>
-                <option value="COMPUTER">Computer</option>
-                <option value="CIVIL">Civil</option>
-                <option value="MECHANICAL">Mechanical</option>
-                <option value="ELECTRICAL">Electrical</option>
-                <option value="AGRICULTURE">Agriculture</option>
-                <option value="ELECTRONICS">Electronics</option>
-                <option value="ARCHITECTURE">Architecture</option>
-              </select>
-              {errors.faculty && (
-                <p className="text-red-500 text-xs mt-1">
-                  {errors.faculty.message}
-                </p>
-              )}
-            </div>
+    <div className="student-register-container">
+      <div className="student-register-form-card">
+        <h2 className="student-register-title">
+          Register Student
+        </h2>
+        <form onSubmit={handleSubmit(onSubmit)} className="student-register-form">
+          <div className="student-register-form-group">
+            <label htmlFor="name" className="student-register-label">Name</label>
+            <input
+              id="name"
+              {...register("name", { required: "Name is required" })}
+              className="student-register-input student-register-input-first"
+              placeholder="Full Name"
+            />
+            {errors.name && (
+              <p className="student-register-error">{errors.name.message}</p>
+            )}
           </div>
-
-          <div>
-            <button
-              type="submit"
-              disabled={isLoading}
-              className={`group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white ${
-                isLoading
-                  ? "bg-indigo-400"
-                  : "bg-indigo-600 hover:bg-indigo-700"
-              } focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500`}
+          
+          <div className="student-register-form-group">
+            <label htmlFor="email" className="student-register-label">Email address</label>
+            <input
+              id="email"
+              type="email"
+              {...register("email", { required: "Email is required" })}
+              className="student-register-input"
+              placeholder="Email address"
+            />
+            {errors.email && (
+              <p className="student-register-error">{errors.email.message}</p>
+            )}
+          </div>
+          
+          <div className="student-register-form-group">
+            <label htmlFor="phone" className="student-register-label">Phone number</label>
+            <input
+              id="phone"
+              type="tel"
+              {...register("phone", { required: "Phone number is required" })}
+              className="student-register-input"
+              placeholder="Phone number"
+            />
+            {errors.phone && (
+              <p className="student-register-error">{errors.phone.message}</p>
+            )}
+          </div>
+          
+          <div className="student-register-form-group">
+            <label htmlFor="semester" className="student-register-label">Semester</label>
+            <input
+              id="semester"
+              type="text"
+              {...register("semester", { required: "Semester is required" })}
+              className="student-register-input"
+              placeholder="Semester"
+            />
+            {errors.semester && (
+              <p className="student-register-error">{errors.semester.message}</p>
+            )}
+          </div>
+          
+          <div className="student-register-form-group">
+            <label htmlFor="section" className="student-register-label">Section</label>
+            <select
+              id="section"
+              {...register("section", { required: "Section is required" })}
+              className="student-register-input student-register-select"
             >
-              {isLoading ? "Registering..." : "Register"}
-            </button>
+              <option value="">Select Section</option>
+              <option value="AB">AB</option>
+              <option value="CD">CD</option>
+              <option value="EF">EF</option>
+            </select>
+            {errors.section && (
+              <p className="student-register-error">{errors.section.message}</p>
+            )}
           </div>
-        </form>
-
-        {successMessage && (
-          <div
-            className="mt-4 bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative"
-            role="alert"
+          
+          <div className="student-register-form-group">
+            <label htmlFor="faculty" className="student-register-label">Faculty</label>
+            <select
+              id="faculty"
+              {...register("faculty", { required: "Faculty is required" })}
+              className="student-register-input student-register-select student-register-input-last"
+            >
+              <option value="">Select Faculty</option>
+              <option value="COMPUTER">Computer</option>
+              <option value="CIVIL">Civil</option>
+              <option value="MECHANICAL">Mechanical</option>
+              <option value="ELECTRICAL">Electrical</option>
+              <option value="AGRICULTURE">Agriculture</option>
+              <option value="ELECTRONICS">Electronics</option>
+              <option value="ARCHITECTURE">Architecture</option>
+            </select>
+            {errors.faculty && (
+              <p className="student-register-error">{errors.faculty.message}</p>
+            )}
+          </div>
+  
+          <button
+            type="submit"
+            disabled={isLoading}
+            className="student-register-button"
           >
-            <span className="block sm:inline">{successMessage}</span>
+            {isLoading ? "Registering..." : "Register"}
+          </button>
+        </form>
+  
+        {successMessage && (
+          <div className="student-register-success-message">
+            {successMessage}
           </div>
         )}
-
+  
         {errorMessage && (
-          <div
-            className="mt-4 bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative"
-            role="alert"
-          >
-            <span className="block sm:inline">{errorMessage}</span>
+          <div className="student-register-error-message">
+            {errorMessage}
           </div>
         )}
       </div>
     </div>
   );
-};
+}
 
 export default StudentRegister;

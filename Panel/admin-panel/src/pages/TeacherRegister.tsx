@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import axios from "axios";
+import '../components/UI/Register/TeacherRegister.css';
 
 interface TeacherForm {
   name: string;
@@ -42,98 +43,96 @@ const TeacherRegister: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 flex items-center justify-center px-6 py-12">
-      <div className="w-full max-w-lg bg-white p-8 rounded-2xl shadow-lg">
-        <h2 className="text-3xl font-semibold text-center text-gray-800 mb-6">
+    <div className="teacher-register-container">
+      <div className="teacher-register-form-card">
+        <h2 className="teacher-register-title">
           Register Teacher
         </h2>
-        <form onSubmit={handleSubmit(onSubmit)} className="space-y-5">
-          <div>
-            <label className="block text-sm font-medium text-gray-700">
+        <form onSubmit={handleSubmit(onSubmit)} className="teacher-register-form">
+          <div className="teacher-register-form-group">
+            <label className="teacher-register-label">
               Full Name
             </label>
             <input
               {...register("name", { required: "Name is required" })}
-              className="mt-1 w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
+              className="teacher-register-input"
             />
             {errors.name && (
-              <p className="text-red-500 text-sm mt-1">{errors.name.message}</p>
+              <p className="teacher-register-error">{errors.name.message}</p>
             )}
           </div>
-
-          <div>
-            <label className="block text-sm font-medium text-gray-700">
+  
+          <div className="teacher-register-form-group">
+            <label className="teacher-register-label">
               Email Address
             </label>
             <input
               type="email"
               {...register("email", { required: "Email is required" })}
-              className="mt-1 w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
+              className="teacher-register-input"
             />
             {errors.email && (
-              <p className="text-red-500 text-sm mt-1">
+              <p className="teacher-register-error">
                 {errors.email.message}
               </p>
             )}
           </div>
-
-          <div>
-            <label className="block text-sm font-medium text-gray-700">
+  
+          <div className="teacher-register-form-group">
+            <label className="teacher-register-label">
               Password
             </label>
             <input
               type="password"
               {...register("password", { required: "Password is required" })}
-              className="mt-1 w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
+              className="teacher-register-input"
             />
             {errors.password && (
-              <p className="text-red-500 text-sm mt-1">
+              <p className="teacher-register-error">
                 {errors.password.message}
               </p>
             )}
           </div>
-
-          <div>
-            <label className="block text-sm font-medium text-gray-700">
+  
+          <div className="teacher-register-form-group">
+            <label className="teacher-register-label">
               Phone Number
             </label>
             <input
               type="tel"
               {...register("phone", { required: "Phone number is required" })}
-              className="mt-1 w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
+              className="teacher-register-input"
             />
             {errors.phone && (
-              <p className="text-red-500 text-sm mt-1">
+              <p className="teacher-register-error">
                 {errors.phone.message}
               </p>
             )}
           </div>
-
+  
           <button
             type="submit"
             disabled={isLoading}
-            className={`w-full py-2 text-white text-lg font-medium rounded-lg transition duration-200 ${
-              isLoading ? "bg-indigo-400" : "bg-indigo-600 hover:bg-indigo-700"
-            }`}
+            className="teacher-register-button"
           >
             {isLoading ? "Registering..." : "Register"}
           </button>
         </form>
-
+  
         {successMessage && (
-          <div className="mt-4 p-3 text-green-700 bg-green-100 border border-green-400 rounded-lg">
+          <div className="teacher-register-success-message">
             {successMessage}
           </div>
         )}
-
+  
         {errorMessage && (
-          <div className="mt-4 p-3 text-red-700 bg-red-100 border border-red-400 rounded-lg">
+          <div className="teacher-register-error-message">
             {errorMessage}
           </div>
         )}
       </div>
     </div>
   );
-};
+}
 
 export default TeacherRegister;
