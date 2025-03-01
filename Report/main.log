@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.25)  1 MAR 2025 18:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.25)  1 MAR 2025 20:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -474,7 +474,7 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count314
 \l__pdf_internal_box=\box68
-) (main.aux (CoverPage.aux) (Acknowledgement.aux) (Abstract.aux) (ListofAbbreviations.aux) (Introduction.aux) (RelatedTheory.aux) (LiteratureReview.aux) (Methodology.aux) (ExpectedResults.aux) (Conclusion.aux) (References.aux) (Appendix.aux))
+) (main.aux (CoverPage.aux) (Acknowledgement.aux) (Abstract.aux) (ListofAbbreviations.aux) (Introduction.aux) (RelatedTheory.aux) (LiteratureReview.aux) (Methodology.aux) (SystemDesign.aux) (TechnologiesUsed.aux) (ExpectedResults.aux) (Conclusion.aux) (References.aux) (Appendix.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
@@ -598,10 +598,6 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
-)
-\tf@toc=\write4
-\openout4 = `main.toc'.
-
 
 
 [2
@@ -610,9 +606,18 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 
 
 
-]
+])
+\tf@toc=\write4
+\openout4 = `main.toc'.
 
-[3] (main.lof)
+
+
+[3] (main.lof
+Overfull \hbox (24.92284pt too wide) detected at line 3
+\OT1/ptm/m/n/12 Figure 2.1: 
+ []
+
+)
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
@@ -656,7 +661,12 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 
  (RelatedTheory.tex
 Chapter 2.
-)
+<Graphics/mvvm_architecture.png, id=41, 563.10374pt x 540.0175pt>
+File: Graphics/mvvm_architecture.png Graphic file (type png)
+<use Graphics/mvvm_architecture.png>
+Package pdftex.def Info: Graphics/mvvm_architecture.png  used on input line 11.
+(pdftex.def)             Requested size: 333.46777pt x 319.79411pt.
+
 
 [4
 
@@ -664,13 +674,17 @@ Chapter 2.
 
 
 ]
+
+[5 <./Graphics/mvvm_architecture.png>])
+
+[6]
 \openout2 = `LiteratureReview.aux'.
 
  (LiteratureReview.tex
 Chapter 3.
 )
 
-[5
+[7
 
 
 
@@ -682,19 +696,45 @@ Chapter 3.
 Chapter 4.
 )
 
-[6
+[8
 
 
 
 
 ]
-\openout2 = `ExpectedResults.aux'.
+\openout2 = `SystemDesign.aux'.
 
- (ExpectedResults.tex
+ (SystemDesign.tex
 Chapter 5.
 )
 
-[7
+[9
+
+
+
+
+]
+\openout2 = `TechnologiesUsed.aux'.
+
+ (TechnologiesUsed.tex
+Chapter 6.
+
+
+[10
+
+
+
+
+])
+
+[11]
+\openout2 = `ExpectedResults.aux'.
+
+ (ExpectedResults.tex
+Chapter 7.
+)
+
+[12
 
 
 
@@ -706,9 +746,19 @@ Chapter 5.
 No file Conclusion.tex.
 \openout2 = `References.aux'.
 
-(References.tex (main.bbl))
+(References.tex (main.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 31--34
+[]\OT1/ptm/m/n/12 M. Fowler, ``Pre-sen-ta-tion model,'' $https : / / martinfowler . com / eaaDev /
+ []
 
-[8
+
+Underfull \hbox (badness 7468) in paragraph at lines 47--50
+\OT1/ptm/m/n/12 apps / details ? id = com . gatewaysoft . kathmanduuniversity & hl = en-[]US & pli = 1$, 2025,
+ []
+
+))
+
+[13
 
 
 
@@ -721,30 +771,30 @@ No file Conclusion.tex.
 
  (Appendix.tex
 
-[9
+[14
 
 
 
 ])
 
-[10] (main.aux (CoverPage.aux) (Acknowledgement.aux) (Abstract.aux) (ListofAbbreviations.aux) (Introduction.aux) (RelatedTheory.aux) (LiteratureReview.aux) (Methodology.aux) (ExpectedResults.aux) (Conclusion.aux) (References.aux) (Appendix.aux))
+[15] (main.aux (CoverPage.aux) (Acknowledgement.aux) (Abstract.aux) (ListofAbbreviations.aux) (Introduction.aux) (RelatedTheory.aux) (LiteratureReview.aux) (Methodology.aux) (SystemDesign.aux) (TechnologiesUsed.aux) (ExpectedResults.aux) (Conclusion.aux) (References.aux) (Appendix.aux))
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-11-02>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 17306 strings out of 473649
- 335694 string characters out of 5727938
- 704602 words of memory out of 5000000
- 40025 multiletter control sequences out of 15000+600000
+ 17391 strings out of 473649
+ 338204 string characters out of 5727938
+ 705484 words of memory out of 5000000
+ 40096 multiletter control sequences out of 15000+600000
  577155 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,6n,93p,1233b,185s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,6n,93p,1233b,304s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (17 pages, 741855 bytes).
+Output written on main.pdf (22 pages, 785109 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
+ 97 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -21,6 +21,17 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{8928192}
+O.~Al-Debagy and P.~Martinek, ``A comparative review of microservices and
+  monolithic architectures,'' in \emph{2018 IEEE 18th International Symposium
+  on Computational Intelligence and Informatics (CINTI)}, 2018, pp.
+  000\,149--000\,154.
+
+\bibitem{fowler2025presentationmodel}
+M.~Fowler, ``Presentation model,''
+  \url{https://martinfowler.com/eaaDev/PresentationModel.html}, 2025, accessed:
+  Mar. 1, 2025.
+
 \bibitem{oliveira2020adoption}
 V.~Oliveira, L.~Teixeira, and F.~Ebert, ``On the adoption of kotlin on android
   development: A triangulation study,'' in \emph{2020 IEEE 27th International
@@ -31,5 +42,22 @@ V.~Oliveira, L.~Teixeira, and F.~Ebert, ``On the adoption of kotlin on android
 M.~Casciaro and L.~Mammino, \emph{Node.js Design Patterns}, 2nd~ed.\hskip 1em
   plus 0.5em minus 0.4em\relax Packt Publishing, 2020, referenced pages:
   418-421.
+
+\bibitem{kathmandu2025app}
+``Kathmandu university app,'' "[Online]. Available:
+  \url{https://play.google.com/store/apps/details?id=com.gatewaysoft.kathmanduuniversity&hl=en-US&pli=1},
+  2025, accessed: Mar. 1, 2025.
+
+\bibitem{react2025}
+``React,'' [Online]. Available: \url{https://react.dev/}, 2025, accessed: Mar.
+  1, 2025.
+
+\bibitem{typescript2025}
+``Typescript,'' [Online]. Available: \url{https://www.typescriptlang.org/},
+  2025, accessed: Mar. 1, 2025.
+
+\bibitem{kotlin2025}
+``Kotlin,'' [Online]. Available: \url{https://kotlinlang.org/docs/home.html},
+  2025, accessed: Mar. 1, 2025.
 
 \end{thebibliography}

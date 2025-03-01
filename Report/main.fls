@@ -216,6 +216,12 @@ INPUT LiteratureReview.aux
 INPUT .\Methodology.aux
 INPUT .\Methodology.aux
 INPUT Methodology.aux
+INPUT .\SystemDesign.aux
+INPUT .\SystemDesign.aux
+INPUT SystemDesign.aux
+INPUT .\TechnologiesUsed.aux
+INPUT .\TechnologiesUsed.aux
+INPUT TechnologiesUsed.aux
 INPUT .\ExpectedResults.aux
 INPUT .\ExpectedResults.aux
 INPUT ExpectedResults.aux
@@ -311,9 +317,9 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
-OUTPUT main.toc
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+OUTPUT main.toc
 INPUT .\main.lof
 INPUT .\main.lof
 INPUT main.lof
@@ -345,6 +351,13 @@ OUTPUT RelatedTheory.aux
 INPUT .\RelatedTheory.tex
 INPUT .\RelatedTheory.tex
 INPUT RelatedTheory.tex
+INPUT .\Graphics\mvvm_architecture.png
+INPUT .\Graphics\mvvm_architecture.png
+INPUT .\Graphics\mvvm_architecture.png
+INPUT .\Graphics\mvvm_architecture.png
+INPUT .\Graphics\mvvm_architecture.png
+INPUT .\Graphics\mvvm_architecture.png
+INPUT .\Graphics\mvvm_architecture.png
 INPUT .\LiteratureReview.tex
 INPUT .\LiteratureReview.tex
 OUTPUT LiteratureReview.aux
@@ -357,6 +370,18 @@ OUTPUT Methodology.aux
 INPUT .\Methodology.tex
 INPUT .\Methodology.tex
 INPUT Methodology.tex
+INPUT .\SystemDesign.tex
+INPUT .\SystemDesign.tex
+OUTPUT SystemDesign.aux
+INPUT .\SystemDesign.tex
+INPUT .\SystemDesign.tex
+INPUT SystemDesign.tex
+INPUT .\TechnologiesUsed.tex
+INPUT .\TechnologiesUsed.tex
+OUTPUT TechnologiesUsed.aux
+INPUT .\TechnologiesUsed.tex
+INPUT .\TechnologiesUsed.tex
+INPUT TechnologiesUsed.tex
 INPUT .\ExpectedResults.tex
 INPUT .\ExpectedResults.tex
 OUTPUT ExpectedResults.aux
@@ -406,6 +431,12 @@ INPUT LiteratureReview.aux
 INPUT .\Methodology.aux
 INPUT .\Methodology.aux
 INPUT Methodology.aux
+INPUT .\SystemDesign.aux
+INPUT .\SystemDesign.aux
+INPUT SystemDesign.aux
+INPUT .\TechnologiesUsed.aux
+INPUT .\TechnologiesUsed.aux
+INPUT TechnologiesUsed.aux
 INPUT .\ExpectedResults.aux
 INPUT .\ExpectedResults.aux
 INPUT ExpectedResults.aux

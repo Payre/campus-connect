@@ -11,12 +11,30 @@
 \contentsline {subsection}{\numberline {1.5.1}Academic Study/Research}{2}{}%
 \contentsline {subsection}{\numberline {1.5.2}Comparison of Scope with Existing Systems}{2}{}%
 \contentsline {chapter}{\numberline {2}RELATED THEORY}{4}{}%
-\contentsline {section}{\numberline {2.1}Mobile Application Development}{4}{}%
-\contentsline {section}{\numberline {2.2}Monolithic Architecture}{4}{}%
-\contentsline {chapter}{\numberline {3}LITERATURE REVIEW}{5}{}%
-\contentsline {chapter}{\numberline {4}METHODOLOGY}{6}{}%
-\contentsline {section}{\numberline {4.1}Overview}{6}{}%
-\contentsline {section}{\numberline {4.2}Other section goes here}{6}{}%
-\contentsline {chapter}{\numberline {5}EXPECTED RESULTS}{7}{}%
-\contentsline {chapter}{REFERENCES}{8}{}%
-\contentsline {chapter}{APPENDIX}{9}{}%
+\contentsline {section}{\numberline {2.1}Monolithic Architecture}{4}{}%
+\contentsline {section}{\numberline {2.2}MVVM Architecture}{4}{}%
+\contentsline {section}{\numberline {2.3}REST API}{5}{}%
+\contentsline {subsection}{\numberline {2.3.1}GET}{5}{}%
+\contentsline {subsection}{\numberline {2.3.2}POST}{6}{}%
+\contentsline {subsection}{\numberline {2.3.3}PUT}{6}{}%
+\contentsline {subsection}{\numberline {2.3.4}PATCH}{6}{}%
+\contentsline {subsection}{\numberline {2.3.5}DELETE}{6}{}%
+\contentsline {chapter}{\numberline {3}LITERATURE REVIEW}{7}{}%
+\contentsline {section}{\numberline {3.1}Related Work}{7}{}%
+\contentsline {chapter}{\numberline {4}METHODOLOGY}{8}{}%
+\contentsline {section}{\numberline {4.1}Overview}{8}{}%
+\contentsline {section}{\numberline {4.2}Other section goes here}{8}{}%
+\contentsline {chapter}{\numberline {5}SYSTEMDESIGN}{9}{}%
+\contentsline {section}{\numberline {5.1}Overview}{9}{}%
+\contentsline {section}{\numberline {5.2}Other section goes here}{9}{}%
+\contentsline {chapter}{\numberline {6}TECHNOLOGY USED}{10}{}%
+\contentsline {section}{\numberline {6.1}Front-End}{10}{}%
+\contentsline {subsection}{\numberline {6.1.1}React}{10}{}%
+\contentsline {subsection}{\numberline {6.1.2}TypeScript}{10}{}%
+\contentsline {subsection}{\numberline {6.1.3}Kotlin}{10}{}%
+\contentsline {section}{\numberline {6.2}Back-End}{11}{}%
+\contentsline {subsection}{\numberline {6.2.1}Node.js}{11}{}%
+\contentsline {subsection}{\numberline {6.2.2}PostgreSQL}{11}{}%
+\contentsline {chapter}{\numberline {7}EXPECTED RESULTS}{12}{}%
+\contentsline {chapter}{REFERENCES}{13}{}%
+\contentsline {chapter}{APPENDIX}{14}{}%

@@ -17,6 +17,10 @@ Reallocating 'name_of_file' (item size: 1) to 21 items.
 A level-1 auxiliary file: LiteratureReview.aux
 Reallocating 'name_of_file' (item size: 1) to 16 items.
 A level-1 auxiliary file: Methodology.aux
+Reallocating 'name_of_file' (item size: 1) to 17 items.
+A level-1 auxiliary file: SystemDesign.aux
+Reallocating 'name_of_file' (item size: 1) to 21 items.
+A level-1 auxiliary file: TechnologiesUsed.aux
 Reallocating 'name_of_file' (item size: 1) to 20 items.
 A level-1 auxiliary file: ExpectedResults.aux
 Reallocating 'name_of_file' (item size: 1) to 15 items.
@@ -39,44 +43,44 @@ Database file #1: refe.bib
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 
 Done.
-You've used 2 entries,
+You've used 8 entries,
             4087 wiz_defined-function locations,
-            847 strings with 7848 characters,
-and the built_in function-call counts, 1495 in all, are:
-= -- 100
-> -- 32
-< -- 11
-+ -- 16
-- -- 5
-* -- 82
-:= -- 223
-add.period$ -- 4
-call.type$ -- 2
-change.case$ -- 3
-chr.to.int$ -- 30
-cite$ -- 2
-duplicate$ -- 106
-empty$ -- 136
-format.name$ -- 7
-if$ -- 339
+            873 strings with 8623 characters,
+and the built_in function-call counts, 4439 in all, are:
+= -- 343
+> -- 62
+< -- 25
++ -- 42
+- -- 14
+* -- 196
+:= -- 673
+add.period$ -- 16
+call.type$ -- 8
+change.case$ -- 14
+chr.to.int$ -- 69
+cite$ -- 8
+duplicate$ -- 341
+empty$ -- 415
+format.name$ -- 11
+if$ -- 1026
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 17
-newline$ -- 29
-num.names$ -- 2
-pop$ -- 49
+int.to.str$ -- 8
+missing$ -- 62
+newline$ -- 47
+num.names$ -- 4
+pop$ -- 172
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 106
+skip$ -- 343
 stack$ -- 0
-substring$ -- 60
-swap$ -- 73
-text.length$ -- 1
+substring$ -- 183
+swap$ -- 230
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 2
+type$ -- 8
 warning$ -- 0
-while$ -- 6
-width$ -- 3
-write$ -- 39
+while$ -- 11
+width$ -- 9
+write$ -- 89
