@@ -17,6 +17,7 @@ const Login = React.lazy(() => import("./pages/Login"));
 const Notice = React.lazy(() => import("./pages/Notice"));
 const TeacherRegister = React.lazy(() => import("./pages/TeacherRegister"));
 const StudentRegister = React.lazy(() => import("./pages/StudentRegister"));
+const AddSubject = React.lazy(() => import("./pages/AddSubject"));
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
               <Route path="/notice" element={<Notice />} />
               <Route path="/teacherregister" element={<TeacherRegister />} />
               <Route path="/studentregister" element={<StudentRegister />} />
+              <Route path="/addsubject" element={<AddSubject />} />
             </Route>
           </Route>
           <Route path="/login" element={<Login />} />

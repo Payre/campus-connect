@@ -1,0 +1,22 @@
+\contentsline {chapter}{ACKNOWLEDGEMENT}{i}{}%
+\contentsline {chapter}{LIST OF FIGURES}{iv}{}%
+\contentsline {chapter}{LIST OF TABLES}{v}{}%
+\contentsline {chapter}{LIST OF ABBREVIATIONS}{vi}{}%
+\contentsline {chapter}{\numberline {1}INTRODUCTION}{1}{}%
+\contentsline {section}{\numberline {1.1}Background}{1}{}%
+\contentsline {section}{\numberline {1.2}Gap Identification}{1}{}%
+\contentsline {section}{\numberline {1.3}Motivation}{1}{}%
+\contentsline {section}{\numberline {1.4}Objectives}{2}{}%
+\contentsline {section}{\numberline {1.5}Scope}{2}{}%
+\contentsline {subsection}{\numberline {1.5.1}Academic Study/Research}{2}{}%
+\contentsline {subsection}{\numberline {1.5.2}Comparison of Scope with Existing Systems}{2}{}%
+\contentsline {chapter}{\numberline {2}RELATED THEORY}{4}{}%
+\contentsline {section}{\numberline {2.1}Mobile Application Development}{4}{}%
+\contentsline {section}{\numberline {2.2}Monolithic Architecture}{4}{}%
+\contentsline {chapter}{\numberline {3}LITERATURE REVIEW}{5}{}%
+\contentsline {chapter}{\numberline {4}METHODOLOGY}{6}{}%
+\contentsline {section}{\numberline {4.1}Overview}{6}{}%
+\contentsline {section}{\numberline {4.2}Other section goes here}{6}{}%
+\contentsline {chapter}{\numberline {5}EXPECTED RESULTS}{7}{}%
+\contentsline {chapter}{REFERENCES}{8}{}%
+\contentsline {chapter}{APPENDIX}{9}{}%
