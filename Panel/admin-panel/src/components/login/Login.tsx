@@ -13,6 +13,7 @@ function LoginBox() {
   const loginCtx = useContext(LoginContext);
   const langCtx = useContext(langContextObj);
   const userNameRef = useRef<HTMLInputElement>(null);
+  const passwordRef = useRef<HTMLInputElement>(null);
   const errorMessageRef = useRef<HTMLSpanElement>(null);
   const navigate = useNavigate();
   const { t } = useTranslation();
@@ -20,7 +21,9 @@ function LoginBox() {
   let isValid = true;
   function loginHandler(e: React.FormEvent) {
     e.preventDefault();
-    isValid = userNameRef.current?.value === "admin";
+    isValid =
+      userNameRef.current?.value === "admin" &&
+      passwordRef.current?.value === "admin";
     if (userNameRef.current) {
       if (isValid) {
         loginCtx.toggleLogin();
@@ -43,25 +46,15 @@ function LoginBox() {
     >
       <div className={classes.loginBox}>
         <div className={classes.logo}>
-          <img src={images.logo} alt="digikala" />
+          <img src={images.logo} alt="Campus Connect" />
         </div>
         <h2 className={classes.title}>{t("loginPage")}</h2>
         <form onSubmit={loginHandler}>
-          <Input
-            ref={userNameRef}
-            type={"text"}
-            id={"userName"}
-            placeholder={"admin"}
-          />
+          <Input ref={userNameRef} type={"text"} id={"userName"} />
+          <Input ref={passwordRef} type={"password"} id={"pass"} />
           <span ref={errorMessageRef} className={classes.errorMessage}>
             {t("errorMessage")}
           </span>
-          <Input
-            type={"password"}
-            id={"pass"}
-            value={"admin"}
-            readonly={true}
-          />
           <Button type="submit">{t("login")}</Button>
           <Link className={classes.forgat_pass} to="/">
             {t("forgetPass")}
@@ -73,12 +66,12 @@ function LoginBox() {
         </form>
       </div>
 
-      <div className={classes.keyPic}>
+      {/* <div className={classes.keyPic}>
         <img
-          src={require("../../assets/images/Revenue-cuate.svg").default}
+          src={require("../../assets/images/background.png").default}
           alt="illustrator key"
         />
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -42,7 +42,7 @@ function Sidebar() {
       }`}
     >
       <div className={classes.sidebar__logo}>
-        <img src={images.logo} alt="digikala" />
+        {/* <img src={images.logo} alt="Campus connect" /> */}
       </div>
       <div className={classes.sidebar__menu}>
         {sidebarNav.map((nav, index) => (

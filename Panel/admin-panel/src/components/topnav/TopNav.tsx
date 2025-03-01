@@ -26,23 +26,23 @@ function TopNav() {
           <Icon icon="ci:menu-alt-03" width="24" />
         </div>
         <div className={classes.topNav_left_menu} onClick={openSidebarHandler}>
-          <div className="topNav_left_menu_open">
+          {/* <div className="topNav_left_menu_open">
             <Icon icon="ci:menu-alt-03" width="24" />
           </div>
 
           <div className="topNav_left_menu_close">
             <Icon icon="eva:close-fill" width="24" />
-          </div>
+          </div> */}
         </div>
-        <div className={classes.search_desktop_wrapper}>
+        {/* <div className={classes.search_desktop_wrapper}>
           <SearchBox />
-        </div>
+        </div> */}
       </div>
       <TopNavRightBox />
       <br />
-      <div className={classes.search_tablet_wrapper}>
+      {/* <div className={classes.search_tablet_wrapper}>
         <SearchBox />
-      </div>
+      </div> */}
     </div>
   );
 }
