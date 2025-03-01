@@ -1,34 +1,34 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces MVVM Architecture}}{5}{}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces MVVM Architecture}}{5}{figure.caption.3}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Use Case Diagram}}{13}{}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Class Diagram}}{14}{}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Sequence Diagram for User Authentication}}{15}{}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Sequence Diagram for Attendance Management}}{16}{}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Sequence Diagram for Viewing Marks and Notices}}{17}{}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Activity Diagram for Login Process}}{18}{}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Activity Diagram for Attendance Entry}}{19}{}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Activity Diagram for Viewing Results}}{20}{}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Component Diagram}}{21}{}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Use Case Diagram}}{13}{figure.caption.4}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Class Diagram}}{14}{figure.caption.5}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Sequence Diagram for User Authentication}}{15}{figure.caption.6}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Sequence Diagram for Attendance Management}}{16}{figure.caption.7}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Sequence Diagram for Viewing Marks and Notices}}{17}{figure.caption.8}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Activity Diagram for Login Process}}{18}{figure.caption.9}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Activity Diagram for Attendance Entry}}{19}{figure.caption.10}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Activity Diagram for Viewing Results}}{20}{figure.caption.11}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Component Diagram}}{21}{figure.caption.12}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Login Page for Campus Connect}}{26}{}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Teacher Dashboard}}{27}{}%
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Subjects Added by Teacher}}{28}{}%
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Teacher Adding New Subject}}{29}{}%
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Teacher Taking Attendance}}{30}{}%
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Teacher Viewing Attendance Records}}{31}{}%
-\contentsline {figure}{\numberline {7.7}{\ignorespaces Teacher Adding Internal Marks}}{32}{}%
-\contentsline {figure}{\numberline {7.8}{\ignorespaces Teacher Viewing Internal Marks}}{33}{}%
-\contentsline {figure}{\numberline {7.9}{\ignorespaces Teacher Adding Notice}}{34}{}%
-\contentsline {figure}{\numberline {7.10}{\ignorespaces Teacher Adding Notes}}{35}{}%
-\contentsline {figure}{\numberline {7.11}{\ignorespaces Student Dashboard}}{36}{}%
-\contentsline {figure}{\numberline {7.12}{\ignorespaces Student Viewing Attendance}}{37}{}%
-\contentsline {figure}{\numberline {7.13}{\ignorespaces Student Viewing Internal Marks}}{38}{}%
-\contentsline {figure}{\numberline {7.14}{\ignorespaces Student Viewing Notices}}{39}{}%
-\contentsline {figure}{\numberline {7.15}{\ignorespaces Student Accessing Notes}}{40}{}%
-\contentsline {figure}{\numberline {7.16}{\ignorespaces Student Viewing Teacher Information}}{41}{}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Login Page for Campus Connect}}{26}{figure.caption.13}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Teacher Dashboard}}{27}{figure.caption.14}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Subjects Added by Teacher}}{28}{figure.caption.15}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Teacher Adding New Subject}}{29}{figure.caption.16}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Teacher Taking Attendance}}{30}{figure.caption.17}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Teacher Viewing Attendance Records}}{31}{figure.caption.18}%
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Teacher Adding Internal Marks}}{32}{figure.caption.19}%
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Teacher Viewing Internal Marks}}{33}{figure.caption.20}%
+\contentsline {figure}{\numberline {7.9}{\ignorespaces Teacher Adding Notice}}{34}{figure.caption.21}%
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Teacher Adding Notes}}{35}{figure.caption.22}%
+\contentsline {figure}{\numberline {7.11}{\ignorespaces Student Dashboard}}{36}{figure.caption.23}%
+\contentsline {figure}{\numberline {7.12}{\ignorespaces Student Viewing Attendance}}{37}{figure.caption.24}%
+\contentsline {figure}{\numberline {7.13}{\ignorespaces Student Viewing Internal Marks}}{38}{figure.caption.25}%
+\contentsline {figure}{\numberline {7.14}{\ignorespaces Student Viewing Notices}}{39}{figure.caption.26}%
+\contentsline {figure}{\numberline {7.15}{\ignorespaces Student Accessing Notes}}{40}{figure.caption.27}%
+\contentsline {figure}{\numberline {7.16}{\ignorespaces Student Viewing Teacher Information}}{41}{figure.caption.28}%
 \addvspace {10\p@ }

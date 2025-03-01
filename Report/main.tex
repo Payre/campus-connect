@@ -21,9 +21,9 @@
 \usepackage{mathptmx}   % Loads the Times-Roman Math Fonts
 \usepackage[left=3.81cm,
             right=2.54cm,
-		top=2.54cm,
-		bottom=2.54cm,
-		a4paper]{geometry}
+        top=2.54cm,
+        bottom=2.54cm,
+        a4paper]{geometry}
   
 \setlength{\parindent}{0pt} % Remove paragraph indent globally
 \usepackage{setspace} %package for line spacing
@@ -77,6 +77,23 @@
 \renewcommand{\cfttabaftersnumb}{\hspace{2.5em}}
 
 %----------------------------------------------------------------------
+%	HYPERLINKS CONFIGURATION
+%----------------------------------------------------------------------
+% hyperref should be the last package loaded
+\usepackage[pdftex,
+            colorlinks=true,
+            linkcolor=blue,
+            citecolor=blue,
+            urlcolor=blue,
+            bookmarks=true,
+            bookmarksopen=true,
+            bookmarksnumbered=true,
+            pdfborder={0 0 0},
+            breaklinks=true,
+            pdftitle={Campus Connect: A Student Information System},
+            pdfauthor={Student Name}]{hyperref}
+
+%----------------------------------------------------------------------
 %	END OF PREAMLBE AND BEGINNING OF THE DOCUMENT
 %----------------------------------------------------------------------
 
@@ -106,15 +123,3 @@
 \include{References}
 
 \end{document}
-
-
-
-
-
-
-
-
-
-
-
-
