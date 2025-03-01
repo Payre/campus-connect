@@ -41,12 +41,12 @@ const sidebarNav = [
   //   icon: "ic:round-inventory",
   //   text: "Inventory",
   // },
-  {
-    link: "/notice",
-    section: "Notice",
-    icon: "ic:round-inventory",
-    text: "Notice",
-  },
+  // {
+  //   link: "/notice",
+  //   section: "Notice",
+  //   icon: "ic:round-inventory",
+  //   text: "Notice",
+  // },
   {
     link: "/teacherregister",
     section: "Teacher Register",

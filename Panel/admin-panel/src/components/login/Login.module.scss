@@ -22,23 +22,21 @@ html {
   @include flex();
   flex-direction: column;
   width: 400px;
-  padding: 0 2rem 4rem;
+  padding: 2rem 2rem 4rem;
   background-color: #f9f9fa;
   color: #424750;
   border-radius: $mediumBorderRadius;
   box-shadow: $mainBoxShadow;
 
   .logo {
-    margin-top: -2rem;
-    width: 200px;
+    // margin-top: -2rem;
+    // width: 200px;
+    display: none;
   }
 
   .title {
-    font-size: $fontSizeHeadlineMedium;
-    line-height: 50px;
-    letter-spacing: 0;
-    font-weight: 400;
-    margin: -2rem 0 4rem;
+    margin-top: 2rem; // Adjust the top margin to compensate for the removed logo
+    margin-bottom: 2rem; // Reduce the bottom margin
   }
 
   & input,

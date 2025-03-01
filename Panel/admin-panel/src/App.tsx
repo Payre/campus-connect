@@ -14,7 +14,7 @@ import "./scss/App.scss";
 const NotFound = React.lazy(() => import("./pages/NotFound"));
 // const BlankPage = React.lazy(() => import("./pages/BlankPage"));
 const Login = React.lazy(() => import("./pages/Login"));
-const Notice = React.lazy(() => import("./pages/Notice"));
+// const Notice = React.lazy(() => import("./pages/Notice"));
 const TeacherRegister = React.lazy(() => import("./pages/TeacherRegister"));
 const StudentRegister = React.lazy(() => import("./pages/StudentRegister"));
 const AddSubject = React.lazy(() => import("./pages/AddSubject"));
@@ -35,10 +35,10 @@ function App() {
               <Route path="/analytics" element={<BlankPage />} />
               <Route path="/discount" element={<BlankPage />} />
               <Route path="/inventory" element={<BlankPage />} /> */}
-              <Route path="/notice" element={<Notice />} />
+              {/* <Route path="/notice" element={<Notice />} /> */}
               <Route path="/teacherregister" element={<TeacherRegister />} />
               <Route path="/studentregister" element={<StudentRegister />} />
-              <Route path="/addsubject" element={<AddSubject />} />
+              {/* <Route path="/addsubject" element={<AddSubject />} /> */}
             </Route>
           </Route>
           <Route path="/login" element={<Login />} />
