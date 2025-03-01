@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.25)  1 MAR 2025 20:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.25)  1 MAR 2025 22:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -606,13 +606,15 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 
 
 
-])
+]
+
+[3])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
 
 
-[3] (main.lof
+[4] (main.lof
 Overfull \hbox (24.92284pt too wide) detected at line 3
 \OT1/ptm/m/n/12 Figure 2.1: 
  []
@@ -623,18 +625,18 @@ Overfull \hbox (24.92284pt too wide) detected at line 3
 
 
 
-[4] (main.lot)
+[5] (main.lot)
 \tf@lot=\write6
 \openout6 = `main.lot'.
 
 
 
-[5]
+[6]
 \openout2 = `ListofAbbreviations.aux'.
 
  (ListofAbbreviations.tex)
 
-[6
+[7
 
 
 ]
@@ -661,7 +663,7 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 
  (RelatedTheory.tex
 Chapter 2.
-<Graphics/mvvm_architecture.png, id=41, 563.10374pt x 540.0175pt>
+<Graphics/mvvm_architecture.png, id=44, 563.10374pt x 540.0175pt>
 File: Graphics/mvvm_architecture.png Graphic file (type png)
 <use Graphics/mvvm_architecture.png>
 Package pdftex.def Info: Graphics/mvvm_architecture.png  used on input line 11.
@@ -694,7 +696,7 @@ Chapter 3.
 
  (Methodology.tex
 Chapter 4.
-)
+
 
 [8
 
@@ -702,13 +704,19 @@ Chapter 4.
 
 
 ]
+
+[9]
+
+[10])
+
+[11]
 \openout2 = `SystemDesign.aux'.
 
  (SystemDesign.tex
 Chapter 5.
 )
 
-[9
+[12
 
 
 
@@ -720,21 +728,21 @@ Chapter 5.
 Chapter 6.
 
 
-[10
+[13
 
 
 
 
 ])
 
-[11]
+[14]
 \openout2 = `ExpectedResults.aux'.
 
  (ExpectedResults.tex
 Chapter 7.
 )
 
-[12
+[15
 
 
 
@@ -758,7 +766,7 @@ Underfull \hbox (badness 7468) in paragraph at lines 47--50
 
 ))
 
-[13
+[16
 
 
 
@@ -771,13 +779,13 @@ Underfull \hbox (badness 7468) in paragraph at lines 47--50
 
  (Appendix.tex
 
-[14
+[17
 
 
 
 ])
 
-[15] (main.aux (CoverPage.aux) (Acknowledgement.aux) (Abstract.aux) (ListofAbbreviations.aux) (Introduction.aux) (RelatedTheory.aux) (LiteratureReview.aux) (Methodology.aux) (SystemDesign.aux) (TechnologiesUsed.aux) (ExpectedResults.aux) (Conclusion.aux) (References.aux) (Appendix.aux))
+[18] (main.aux (CoverPage.aux) (Acknowledgement.aux) (Abstract.aux) (ListofAbbreviations.aux) (Introduction.aux) (RelatedTheory.aux) (LiteratureReview.aux) (Methodology.aux) (SystemDesign.aux) (TechnologiesUsed.aux) (ExpectedResults.aux) (Conclusion.aux) (References.aux) (Appendix.aux))
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-11-02>
@@ -786,15 +794,15 @@ L3 programming layer <2024-11-02>
 Here is how much of TeX's memory you used:
  17391 strings out of 473649
  338204 string characters out of 5727938
- 705484 words of memory out of 5000000
+ 706485 words of memory out of 5000000
  40096 multiletter control sequences out of 15000+600000
  577155 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,6n,93p,1233b,304s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (22 pages, 785109 bytes).
+Output written on main.pdf (26 pages, 792186 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
+ 110 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

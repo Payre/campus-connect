@@ -1,6 +1,112 @@
 \chapter{METHODOLOGY}
+
 \section{Overview}
-\section{Other section goes here}
+The development of this project follows an Agile Development Model, ensuring continuous feedback and iterative improvements. The system is built using a Monolithic Architecture, integrating all components into a single unified application. This structure allows seamless communication between different system modules, improving efficiency and maintainability.
 
+The project is developed using:
+\begin{itemize}
+    \item \textbf{Front-end:} React (for web) and Kotlin (for mobile).
+    \item \textbf{Back-end:} Node.js with PostgreSQL as the database.
+    \item \textbf{Version Control:} GitHub and Git tools were used for tracking changes and collaboration.
+    \item \textbf{Deployment:} The system is hosted on Azure and Vercel to ensure scalability and high availability.
+\end{itemize}
 
+\section{Requirement Analysis}
+To ensure the system meets the needs of students, teachers, and administrators, a requirement analysis phase was conducted. This involved:
+\begin{itemize}
+    \item \textbf{User Interviews:} Discussions with students and faculty members to identify key functionalities.
+    \item \textbf{Comparative Analysis:} Reviewing existing educational management systems to understand their strengths and weaknesses.
+\end{itemize}
 
+Key requirements derived from this phase include:
+\begin{itemize}
+    \item A student dashboard for accessing attendance, marks, and notices.
+    \item A teacher dashboard for managing attendance and internal assessments.
+    \item An admin panel for user account management.
+\end{itemize}
+
+\section{System Architecture}
+The system is developed using a Monolithic Architecture, where all functionalities are integrated into a single codebase. This approach simplifies development, deployment, and maintenance.
+
+\subsection{Architecture Components}
+\begin{itemize}
+    \item \textbf{Front-end (React \& Kotlin)}
+        \begin{itemize}
+            \item React is used for the web interface.
+            \item Kotlin is used for Android-based mobile applications.
+        \end{itemize}
+    \item \textbf{Back-end (Node.js \& PostgreSQL)}
+        \begin{itemize}
+            \item Node.js handles API requests and server-side processing.
+            \item PostgreSQL is used as the database to store structured data.
+        \end{itemize}
+    \item \textbf{Deployment}
+        \begin{itemize}
+            \item Azure for cloud hosting.
+            \item Vercel for front-end deployment.
+        \end{itemize}
+\end{itemize}
+
+\section{Development Methodology}
+The project follows an Agile Development Model, explicitly incorporating:
+\begin{itemize}
+    \item \textbf{Sprint-Based Development:} The development cycle is divided into multiple sprints, each lasting two weeks.
+    \item \textbf{Daily Stand-up Meetings:} To discuss progress, challenges, and next steps.
+    \item \textbf{Iterative Feedback:} Testing and improvements after each sprint cycle.
+\end{itemize}
+
+\subsection{Sprint Breakdown Example}
+\begin{itemize}
+    \item \textbf{Sprint 1:} Set up project repository, database schema, and authentication module.
+    \item \textbf{Sprint 2:} Develop student dashboard and implement attendance tracking.
+    \item \textbf{Sprint 3:} Complete teacher and admin functionalities.
+    \item \textbf{Sprint 4:} Testing, debugging, and final deployment.
+\end{itemize}
+
+\section{Implementation Strategy}
+The system is implemented in three key phases:
+
+\subsection{Front-End Development}
+\begin{itemize}
+    \item React is used to build reusable UI components for web applications.
+    \item Kotlin is used for mobile development to ensure a smooth user experience.
+    \item State Management is handled using Redux for React applications.
+\end{itemize}
+
+\subsection{Back-End Development}
+\begin{itemize}
+    \item Node.js with Express manages API requests and business logic.
+    \item REST API Architecture is used for communication between the front-end and back-end.
+\end{itemize}
+
+\subsection{Database Management}
+\begin{itemize}
+    \item PostgreSQL stores user data, academic records, and attendance.
+\end{itemize}
+
+\section{Testing and Validation}
+Testing was conducted to identify usability issues and ensure system reliability. The testing approach included:
+\begin{itemize}
+    \item \textbf{Unit Testing:} Each component was individually tested using Jest (for Node.js).
+    \item \textbf{Integration Testing:} API endpoints were tested using Postman to ensure smooth communication.
+    \item \textbf{User Acceptance Testing (UAT):} A group of students and teachers used the system and provided feedback.
+\end{itemize}
+
+\section{Deployment and Maintenance}
+\begin{itemize}
+    \item \textbf{Hosting Platforms:}
+        \begin{itemize}
+            \item Azure is used for cloud hosting of the back-end.
+            \item Vercel is used for front-end deployment.
+        \end{itemize}
+    \item \textbf{Version Control \& CI/CD:}
+        \begin{itemize}
+            \item GitHub \& Git tools are used for source code management.
+            \item Continuous Integration (CI) is implemented to automate testing and deployment.
+        \end{itemize}
+    \item \textbf{Future Maintenance:}
+        \begin{itemize}
+            \item Regular updates based on user feedback.
+            \item Bug fixes and feature enhancements will be tracked using GitHub Issues.
+        \end{itemize}
+\end{itemize}
